@@ -1,5 +1,35 @@
 * {
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: local("Rubik-Regular"),
+    url("./assets/fonts/Rubik1/Rubik-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik-Medium";
+  src: local("Rubik-Medium"),
+    url("./assets/fonts/Rubik1/Rubik-Medium.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik-Light";
+  src: local("Rubik-Light"),
+    url("./assets/fonts/Rubik1/Rubik-Light.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik-Bold";
+  src: local("Rubik-Bold"),
+    url("./assets/fonts/Rubik1/Rubik-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik-Black";
+  src: local("Rubik-Black"),
+    url("./assets/fonts/Rubik1/Rubik-Black.ttf") format("woff");
 }

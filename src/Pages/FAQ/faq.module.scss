@@ -1,0 +1,46 @@
+.pageContainer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    .contentContainer {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+        .pageHead {
+            width: 100%;
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 600;
+            background-color: #F5F5F5;
+            padding: 70px 0;
+            z-index: 0;
+            margin-top: 6px;
+        }
+    }
+
+    .FAQsContentContainer {
+        width: 100%;
+        display: flex;
+        border: 2px solid red;
+        max-width: 1200px;
+        justify-content: center;
+        margin: 0 auto;
+
+        .FAQsContentContainerLeftSide {
+            width: 30%;
+            border: 2px solid red;
+        }
+
+        .FAQsContentContainerRightSide {
+            width: 70%;
+            border: 2px solid red;
+        }
+    }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import FAQs from './Pages/FAQs';
+import FAQ from './Pages/FAQ/FAQ';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
   return (
     <div>
-      <FAQs />
+      <FAQ />
     </div>
   );
 }
